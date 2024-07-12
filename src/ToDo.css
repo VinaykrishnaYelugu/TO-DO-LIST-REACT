@@ -1,0 +1,111 @@
+*{
+    font-family : sans-serif;
+    font-style: oblique;
+    font-weight : bold;
+}
+
+
+#outer{
+   height : 90vh;
+   width : 60vw;
+
+   min-height : 500px;
+   min-width : 425px;
+
+   background-color: lightcyan;
+   border-radius : 10px;
+   box-shadow : 1px 1px 7px teal;
+   
+   padding : 15px;
+
+   display : flex;
+   flex-direction : column;
+   justify-content: space-evenly;
+   align-items : center;
+}
+
+#control{
+   height : 15%;
+   width : 90%;
+   border-radius: 8px;
+
+   display : flex;
+   justify-content : space-evenly;
+   align-items : center;
+}
+
+#control>input{
+    height : 90%;
+    width : 65%;
+    border-radius : 8px;
+
+    background-color : white;
+    border : none;
+    box-shadow : 2px 2px 4px grey;
+    color : rgb(6, 23, 150);
+    font-size : 23px;
+}
+
+#control>button {
+    height : 90%;
+    width : 25%;
+    background-color: rgb(255, 187, 0);
+    color : black;
+    font-weight: bolder;
+    box-shadow: 2px 2px 3px grey;
+}
+
+h2{
+    color :rgb(6, 23, 150);
+}
+
+#list_{
+    height : 65%;
+    width : 90%;
+
+
+    border-radius : 8px;
+
+    margin : 0px;
+
+    color : rgb(6, 23, 150);
+
+    overflow : scroll;
+    scrollbar-width : none;
+}
+
+#list_>li {
+    width : 95%;
+    padding : 5px;
+    text-align: left;
+
+    border-radius : 10px;
+    margin : 5px;
+    padding : 3px;
+
+    
+    font-weight : lighter;
+    text-decoration-thickness : 5px;
+
+    box-shadow : 0px 0px 3px rgb(51, 182, 234);
+}
+
+#list_ button {
+    background-color: rgb(255, 187, 0);
+    color : black;
+    font-weight: bolder;
+    height : 50px;
+    width : 100px;
+}
+
+
+#control>button:active{
+    height : 89%;
+    width : 24%;
+    box-shadow: 1px 1px 2px grey;
+}
+
+#list_ button:active {
+    height : 49px;
+    width : 99px;
+}
